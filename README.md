@@ -43,7 +43,7 @@ kubectl expose deployment gcp-k8-react-cluster --name=gcp-k8-react-app-service -
 kubectl get service # lists services. Find app URL in EXTERNAL-IP
 ```
 
-- Clean-up
+- Clean-up:
 
 ```bash
 kubectl delete service gcp-k8-react-app-service # deletes service
